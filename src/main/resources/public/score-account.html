@@ -33,7 +33,7 @@
 				<input type="text" id="studentNameSearch" placeholder="请输入学生姓名"
 					autocomplete="off" class="layui-input">
 			</div>
-			<button class="layui-btn layui-btn-normal site-demo-active"
+			<button class="layui-btn layui-btn-warm site-demo-active"
 					data-type="search" id="searchStudent">搜索</button>
 			<table class="layui-table"
 				lay-data="{ url:'/score/getAllSumScore', page:true, id:'scoreSum'}"
@@ -64,7 +64,7 @@
 			table.on('checkbox(demo)', function(obj) {
 				console.log(obj)
 			});
-			
+
 			//触发事件
 			var active = {
 			search:function(){
@@ -74,7 +74,7 @@
 						 , where: {"studentName":name},page: {
 						    curr: 1 //重新从第 1 页开始
 						  }
-						 
+
 						})
 				}
 			};
