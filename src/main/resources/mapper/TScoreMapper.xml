@@ -53,7 +53,7 @@
 		t_score c LEFT JOIN t_student s ON s.student_no=c.student_id
 		where 1=1
 		<if test="studentName !=null and studentName !=''">
-			and student_name like concat('%',#{studentName},'%')
+			and c.student_name like concat('%',#{studentName},'%')
 		</if>
 		<if test="studentId !=null and studentId !=''">
 			and student_id =#{studentId}
@@ -65,6 +65,6 @@
 		select count(1)
 		from t_score
 		where score_type=#{scoreType}
-		and student_id=#{studentId}
+		and student_id=#{studentId} and subject = #{subject}
 	</select>
 </mapper>
