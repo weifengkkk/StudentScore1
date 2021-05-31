@@ -5,11 +5,7 @@ import java.util.List;
 import com.github.pagehelper.PageInfo;
 import com.score.bean.User;
 
-/**
- * 用户服务接口
- * @author Yang
- *
- */
+
 public interface IUserService {	
 	/**
 	 *全量查询用户

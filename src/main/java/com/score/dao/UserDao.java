@@ -13,10 +13,6 @@ import com.score.bean.User;
  */
 @Mapper //标识为mybatis数据层接口
 public interface UserDao {
-	/**
-	 *全量查询用户
-	 * @param user
-	 * @return
-	 */
+
 	List<User> getUser(User user);
 }

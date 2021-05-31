@@ -2,11 +2,7 @@ package com.score.bean;
 
 import org.springframework.stereotype.Component;
 
-/**
- * 用户实体类
- * @author hmg
- *
- */
+
 @Component
 public class User {
 	/*用户名称*/
