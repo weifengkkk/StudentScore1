@@ -47,9 +47,9 @@ public class ScoreServiceImpl implements IScoreService {
 		String str="";
 		switch (type) {
 		case "1":
-			if (count >= 16) {
+			if (count >= 9) {
 				flag = false;
-				str = "该学生的习题成绩已经达到16条";
+				str = "该学生的习题成绩已经达到9条";
 			}
 			break;
 
