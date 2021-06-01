@@ -103,7 +103,7 @@
      <if test="stuPass !=null and stuPass !=''">
     	and stu_pass =#{stuPass}
     </if>
-	  
+
 <!-- 	   -->
     </select>
 </mapper>
