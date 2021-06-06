@@ -10,11 +10,6 @@ import com.score.bean.User;
 import com.score.dao.UserDao;
 import com.score.service.IUserService;
 
-/**
- * 服务实现
- * @author hmg
- *
- */
 @Service //标识为服务类
 public class UserServiceImpl implements IUserService {
 	//注入数据层接口
